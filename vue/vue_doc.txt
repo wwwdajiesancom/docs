@@ -1,0 +1,23 @@
+1.vue的官方文档
+	https://cn.vuejs.org/v2/guide/installation.html
+	
+	学习相关es5,es6的相关知识
+	学些webpack相关知识
+
+	a.对浏览器的支持,支持高版本的,因为vue采用了es5,es6的语法
+	b.需要安装vue
+		npm install vue
+	c.采用npm安装,需要安装nodejs
+	d.安装一个vue-cli的命令行工具,它可以创建一个前端的项目
+		https://www.npmjs.com/package/vue-cli
+		#1.安装命令
+			npm install --global vue-cli
+		#2.创建基于 webpack 模版的项目
+			vue init webpack myProjectName
+		#3.进入到myProjectName项目中,执行命令
+			cd myProjectName
+		#4.他主要是为了下载相关的依赖
+			npm install
+		#5.运行项目
+			npm run dev
+	e.webpack模版的目录结构
